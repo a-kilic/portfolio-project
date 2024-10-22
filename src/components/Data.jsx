@@ -19,7 +19,7 @@ export const ProjectData = [
     id: 3,
     title: "RateMyAnime",
     demo: "https://a-kilic.github.io/RateMyAnime/",
-    code: "https://github.com/a-kilic/RateMyAnime/tree/main",
+    code: "https://github.com/a-kilic/portfolio-project",
     description:
       "Website where users can search for Anime and rate them in list format.",
     img: "https://i.gyazo.com/1b475086b9eb0a343e2a51019e52d38c.jpg",

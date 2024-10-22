@@ -11,7 +11,7 @@ export const ProjectData = [
     id: 2,
     title: "Restaurant",
     demo: "https://restaurant-nova.netlify.app/",
-    code: "https://github.com/a-kilic/RateMyAnime/tree/main",
+    code: "https://github.com/a-kilic/restaurant-site",
     description: "Restaurant Website for NOVA.",
     img: "https://i.gyazo.com/102169ea84e5e5c9eb8dfa05dfe3c011.jpg",
   },
@@ -19,7 +19,7 @@ export const ProjectData = [
     id: 3,
     title: "RateMyAnime",
     demo: "https://a-kilic.github.io/RateMyAnime/",
-    code: "https://github.com/a-kilic/portfolio-project",
+    code: "https://github.com/a-kilic/RateMyAnime/tree/main",
     description:
       "Website where users can search for Anime and rate them in list format.",
     img: "https://i.gyazo.com/1b475086b9eb0a343e2a51019e52d38c.jpg",

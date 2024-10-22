@@ -18,7 +18,7 @@ export const ProjectData = [
   {
     id: 3,
     title: "RateMyAnime",
-    demo: "https://a-kilic.github.io/RateMyAnime/",
+    demo: "https://ratemyanime.netlify.app/",
     code: "https://github.com/a-kilic/RateMyAnime/tree/main",
     description:
       "Website where users can search for Anime and rate them in list format.",

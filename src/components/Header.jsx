@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex items-center mx-auto">
         <div className="flex items-center space-x-4">
           <div>
-            <p className="text-2xl text-center text-white">Arda Kilic</p>
+            <p className="mb-2 text-2xl text-center text-white">Arda Kilic</p>
             <img
               src={photo}
               alt="Avatar Photo"

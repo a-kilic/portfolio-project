@@ -21,21 +21,21 @@ const Header = () => {
         <div className="flex justify-center pb-2 space-x-4 border-b">
           <a
             href="https://www.linkedin.com/in/a-kilic/"
-            className="text-center text-white hover:underline"
+            className="text-center text-white transition hover:underline hover:text-gray-200"
             target="_blank"
           >
             LinkedIn
           </a>
           <a
             href="https://github.com/a-kilic"
-            className="text-white hover:underline"
+            className="text-white transition hover:underline hover:text-gray-200"
             target="_blank"
           >
             GitHub
           </a>
           <a
             href="mailto:arda.kilic@aol.com"
-            className="text-white hover:underline"
+            className="text-white transition hover:underline hover:text-gray-200"
           >
             Email
           </a>

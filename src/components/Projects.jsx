@@ -8,9 +8,11 @@ const Projects = () => {
         <p className="mb-4 text-xl text-white">Recent Projects:</p>
         <div>
           {ProjectData.map((project, id) => (
-            <div
+            <a
               key={id}
-              className="flex p-4 mb-2 bg-gray-900 border rounded-lg"
+              href={project.demo}
+              target="_blank"
+              className="flex p-4 mb-2 transition bg-gray-900 border rounded-lg hover:bg-gray-700 hover:-translate-y-1"
             >
               {/* Image Section */}
               <div className="flex-shrink-0">
@@ -23,28 +25,23 @@ const Projects = () => {
               {/* Content Section */}
               <div className="ml-4">
                 <div>
-                  <p className="text-2xl font-medium text-white">
-                    {project.title}
-                  </p>
+                  <p className="font-medium text-white">{project.title}</p>
                 </div>
                 <p className="mb-2 text-gray-300">{project.description}</p>
                 {/* Links */}
                 <div className="space-x-4">
-                  <a
-                    href={project.demo}
-                    className="text-blue-500 hover:underline"
-                  >
+                  <span className="text-blue-500 hover:underline hover:text-blue-400">
                     Live Demo
-                  </a>
+                  </span>
                   <a
                     href={project.code}
-                    className="text-blue-500 hover:underline"
+                    className="text-blue-500 hover:underline hover:text-blue-400"
                   >
                     Code
                   </a>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </section>

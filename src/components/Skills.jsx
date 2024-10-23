@@ -7,6 +7,9 @@ const Skills = () => {
           JavaScript
         </span>
         <span className="px-4 py-2 mb-2 text-white bg-blue-500 rounded-lg">
+          TypeScript
+        </span>
+        <span className="px-4 py-2 mb-2 text-white bg-blue-500 rounded-lg">
           React
         </span>
         <span className="px-4 py-2 mb-2 text-white bg-blue-500 rounded-lg">

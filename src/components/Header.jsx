@@ -1,4 +1,4 @@
-import photo from "../assets/photo.png";
+import photo from "../assets/photo.jpeg";
 const Header = () => {
   return (
     <section className="flex flex-col space-y-4">
